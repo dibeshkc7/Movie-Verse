@@ -5,10 +5,12 @@ import Header from "../header";
 
 const AuthLayout = () => {
   return (
-    <div>
+    <div className="w-full">
       <Header />
       <Sidebar />
-      <Outlet />
+      <div className="ml-64">
+        <Outlet />
+      </div>
     </div>
   );
 };
