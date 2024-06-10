@@ -10,7 +10,7 @@ const NavItems = [
 
 const Header = () => {
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center sticky top-0 bg-primary-900">
       {/* logo */}
       <nav className=" dark:bg-gray-900 dark:border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

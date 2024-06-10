@@ -8,7 +8,7 @@ const AuthLayout = () => {
     <div className="w-full">
       <Header />
       <Sidebar />
-      <div className="ml-64">
+      <div className="ml-20 px-4">
         <Outlet />
       </div>
     </div>
